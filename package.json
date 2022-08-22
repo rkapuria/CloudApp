@@ -6,7 +6,6 @@
   "scripts": {
     "test": "npx wdio wdio.conf.js",
     "report": "allure generate reports/allure-results --clean && allure open"
-  
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "@wdio/cli": "^7.21.0",
+    "@wdio/spec-reporter": "^7.23.0",
     "chai": "^4.3.6"
   },
   "devDependencies": {
